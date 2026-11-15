@@ -96,10 +96,10 @@ This project includes a GitHub Actions workflow at
 2. Open the repository's **Actions** tab.
 3. Run **Build aminbiography Windows EXE** (or push to the `main` branch).
 4. Download the workflow artifact named `aminbiography-windows-x64`.
-5. Extract it and run `aminbiography.exe`.
+5. Extract it and run `aminbiography Browser.exe`.
 
 The workflow builds on Windows x64. The output is a portable PyInstaller
-one-folder application: keep the `aminbiography.exe` and its companion
+one-folder application: keep the `aminbiography Browser.exe` and its companion
 `_internal` folder together. Qt WebEngine needs its bundled runtime files.
 
 The app window and executable are branded `aminbiography`. The Windows taskbar
