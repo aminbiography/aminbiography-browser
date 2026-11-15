@@ -20,7 +20,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote_plus
 
-from PySide6.QtCore import QUrl, QSize
+from PySide6.QtCore import QUrl, QSize, Qt
 from PySide6.QtGui import QAction, QKeySequence
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QToolBar, QLineEdit,
@@ -28,7 +28,7 @@ from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QListWidget, QHBoxLayout, QPushButton,
     QLabel, QProgressBar, QWidget
 )
-from PySide6.QtWebEngineCore import QWebEngineProfile, QWebEngineDownloadRequest
+from PySide6.QtWebEngineCore import QWebEngineProfile, QWebEngineDownloadRequest, QWebEnginePage
 from PySide6.QtWebEngineWidgets import QWebEngineView
 
 
@@ -201,7 +201,7 @@ class BrowserWindow(QMainWindow):
         self.tabs.setMovable(True)
         self.tabs.currentChanged.connect(self.update_url_bar)
         self.tabs.tabCloseRequested.connect(self.close_tab)
-        self.tabs.tabBar().setContextMenuPolicy(self.tabs.tabBar().CustomContextMenu)
+        self.tabs.tabBar().setContextMenuPolicy(Qt.ContextMenuPolicy.CustomContextMenu)
         self.tabs.tabBar().customContextMenuRequested.connect(self.show_tab_context_menu)
         self.setCentralWidget(self.tabs)
 
@@ -280,9 +280,7 @@ class BrowserWindow(QMainWindow):
     # -----------------------------------------------------------------------
     def new_tab(self, url=None):
         view = QWebEngineView()
-        view.setPage(__import__(
-            "PySide6.QtWebEngineWidgets", fromlist=["QWebEnginePage"]
-        ).QWebEnginePage(self.profile, view))
+        view.setPage(QWebEnginePage(self.profile, view))
 
         index = self.tabs.addTab(view, "New Tab")
         self.tabs.setCurrentIndex(index)
@@ -578,6 +576,13 @@ class BrowserWindow(QMainWindow):
 
         help_menu = self.menuBar().addMenu("&Help")
         help_menu.addAction("About", self.show_about)
+
+        # Direct New Tab command beside Help for easier discovery.
+        new_tab_action = QAction("＋ New Tab", self)
+        new_tab_action.setToolTip("Open a new tab (Ctrl+T)")
+        new_tab_action.setStatusTip("Open a new tab")
+        new_tab_action.triggered.connect(self.new_tab)
+        self.menuBar().addAction(new_tab_action)
 
     def show_tab_context_menu(self, position):
         index = self.tabs.tabBar().tabAt(position)
