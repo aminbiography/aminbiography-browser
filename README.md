@@ -1,6 +1,6 @@
 # Aminbiography Browser 2.0
 
-## Download Aminbiography Browser 2.0
+## Download aminbiography-browser.exe
 
 **Platform:** Windows 10/11 (64-bit)
 
