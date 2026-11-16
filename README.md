@@ -1,5 +1,17 @@
 # Aminbiography Browser 2.0
 
+> **No traditional installation required!**
+>
+> Simply download the ZIP file, extract it, and double-click `aminbiography Browser.exe` to launch the browser.
+>
+> - No separate Python installation required.
+> - No setup wizard required.
+> - Portable Windows application.
+> - Designed for Windows 10/11 (64-bit).
+> - No additional installation dependencies required for end users.
+>
+> **Security note:** **Security note:** Download Aminbiography Browser 2.0 only from the official [GitHub Releases page](https://github.com/aminbiography/aminbiography-browser/releases). Windows Defender SmartScreen may display an unfamiliar-app warning because this is a newly published application without an established reputation. Review the warning and verify the download before deciding whether to run it.
+
 **Download:** [aminbiography Browser.exe](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip) 
 
 **Platform:** Windows 10/11 (64-bit)
