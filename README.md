@@ -513,15 +513,140 @@ The application has not been presented as a hardened production browser or as ha
 
 ---
 
-## Free Software and Project Status
+# Legal Information, Copyright, Privacy, and Third-Party Notices
 
-Aminbiography Browser is currently provided free of charge for personal and general use. No purchase or subscription is required to download or use the application.
+## 1. Independent Project and Non-Affiliation
 
-This is an independently developed project and is not affiliated with, endorsed by, or sponsored by Google, Microsoft, The Qt Company, or the Chromium project.
+Aminbiography Browser 2.0 is an independently developed desktop web browser created by aminbiography.
 
-The application incorporates third-party software components. Those components remain subject to their respective copyright notices and license terms. Nothing in this project's documentation overrides the rights or obligations granted under those third-party licenses.
+This project is not affiliated with, associated with, authorized by, sponsored by, or endorsed by Google LLC, Microsoft Corporation, The Qt Company, or the Chromium project.
 
-**Project status:** Free to download and use. No commercial sale or paid distribution is currently offered by the project developer.
+Aminbiography Browser is an independent application and does not claim to be Google Chrome or any other officially branded third-party browser.
+
+All third-party trademarks, service marks, product names, and logos belong to their respective owners.
+
+## 2. Google Search and External Website Navigation
+
+Aminbiography Browser provides users with the ability to access Google Search and other external websites through its Chromium-based Qt WebEngine rendering engine.
+
+Google Search is accessed as an external website through normal browser navigation.
+
+Google's website interface, content, branding, footer links, Privacy Policy, Terms of Service, and Settings options are provided and maintained by Google LLC.
+
+Aminbiography Browser does not claim ownership of Google's website, search services, content, or intellectual property.
+
+The appearance of Google Search within Aminbiography Browser does not imply any partnership, authorization, sponsorship, or endorsement by Google.
+
+## 3. Google Privacy Policy and Terms of Service
+
+When users access Google services through Aminbiography Browser, they may interact with Google's official privacy and service policies.
+
+Google's official policy links:
+
+- **Google Privacy Policy:** https://policies.google.com/privacy?hl=en-BD&fg=1
+- **Google Terms of Service:** https://policies.google.com/terms?hl=en-BD&fg=1
+
+These policies are published and maintained by Google LLC and govern the applicable Google services.
+
+They are not the privacy policy or software license of Aminbiography Browser.
+
+Users should review the relevant policies of external websites and services they access through the browser.
+
+## 4. Third-Party Software and Open-Source Licenses
+
+Aminbiography Browser incorporates third-party software components and technologies, including:
+
+- Python
+- PySide6
+- Qt Framework
+- Qt WebEngine
+- Chromium
+- PyInstaller
+- Other bundled libraries, dependencies, and supporting components.
+
+These components remain the property of their respective copyright holders and are governed by their applicable licenses.
+
+Their copyright notices, license conditions, redistribution requirements, and other applicable obligations remain in effect independently of the licensing terms of Aminbiography Browser.
+
+The developer does not claim ownership of third-party software.
+
+Applicable third-party license texts, copyright notices, and required source-code information should accompany the distributed application in accordance with the relevant licenses.
+
+## 5. Original Project Copyright and Software Ownership
+
+Copyright © 2026 aminbiography. All rights reserved for original project materials, subject to applicable third-party software licenses.
+
+The original Aminbiography Browser application, its independently developed source code, interface design, project documentation, and original assets are subject to their applicable ownership and licensing terms.
+
+The project's copyright statement does not override, restrict, or replace rights granted under applicable third-party open-source licenses.
+
+Permissions concerning modification, redistribution, and commercial use of the original application are governed by the project's applicable software license.
+
+## 6. Privacy and Browsing Data
+
+Aminbiography Browser uses a persistent browser profile to support browsing functionality.
+
+Depending on the application's configuration and implementation, browsing data may include:
+
+- Cookies
+- Browser cache
+- Browsing history
+- Bookmarks
+- Other persistent browsing information.
+
+Websites accessed through the browser may independently collect, process, and store information according to their own privacy policies and applicable terms.
+
+Users should review external website privacy policies before submitting personal or sensitive information.
+
+For information about data collected, stored, or transmitted by Aminbiography Browser itself, users should consult the project's separate Privacy Policy.
+
+## 7. Security and Responsible Use
+
+Aminbiography Browser is an independently developed learning and development browser project.
+
+It uses Qt WebEngine and its underlying Chromium components for web content rendering and browser functionality.
+
+The application is not represented as an officially certified, independently audited, or hardened production browser.
+
+Security capabilities depend on the versions, configurations, and implementation of its underlying components.
+
+Users are responsible for exercising appropriate caution when browsing websites, downloading files, and accessing sensitive online accounts.
+
+## 8. Warranty and Liability Disclaimer
+
+Aminbiography Browser is provided subject to its applicable software license and mandatory rights under applicable law.
+
+To the extent permitted by applicable law, the developer makes no additional warranty regarding uninterrupted availability, compatibility, fitness for a particular purpose, or error-free operation.
+
+Nothing in this notice excludes or limits any liability, warranty, or consumer right that cannot legally be excluded or limited.
+
+## 9. External Services and Intellectual Property
+
+External websites and services accessible through Aminbiography Browser are independently operated by their respective providers.
+
+Their content, policies, trademarks, logos, and intellectual property remain the property of their respective owners.
+
+Aminbiography Browser does not claim ownership of external website content or imply that third-party providers endorse this project.
+
+Users are responsible for complying with applicable terms and policies when accessing external services.
+
+## 10. Contact and Legal Inquiries
+
+For questions concerning Aminbiography Browser, its original source code, project documentation, copyright, or licensing, please contact the developer through the official GitHub repository.
+
+**Official GitHub Repository:**
+https://github.com/aminbiography/aminbiography-browser
+
+**GitHub Issues:**
+https://github.com/aminbiography/aminbiography-browser/issues
+
+---
+
+**Project:** Aminbiography Browser 2.0
+
+**Developer:** aminbiography
+
+**Copyright:** © 2026 aminbiography. All rights reserved, subject to applicable third-party licenses.
 
 ---
 
