@@ -513,6 +513,18 @@ The application has not been presented as a hardened production browser or as ha
 
 ---
 
+## Free Software and Project Status
+
+Aminbiography Browser is currently provided free of charge for personal and general use. No purchase or subscription is required to download or use the application.
+
+This is an independently developed project and is not affiliated with, endorsed by, or sponsored by Google, Microsoft, The Qt Company, or the Chromium project.
+
+The application incorporates third-party software components. Those components remain subject to their respective copyright notices and license terms. Nothing in this project's documentation overrides the rights or obligations granted under those third-party licenses.
+
+**Project status:** Free to download and use. No commercial sale or paid distribution is currently offered by the project developer.
+
+---
+
 # Feedback, Issues, and Contributions
 
 Feedback, suggestions, and contributions are welcome.
