@@ -456,7 +456,7 @@ Keep the executable and its companion `_internal` folder together.
 
 ---
 
-# ⌨️ Useful Keyboard Shortcuts
+# Useful Keyboard Shortcuts
 
 | Shortcut | Action |
 |---|---|
