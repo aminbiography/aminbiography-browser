@@ -18,6 +18,25 @@
 
 [View All Releases](https://github.com/aminbiography/aminbiography-browser/releases)
 
+### ⚠️ Windows SmartScreen Warning
+
+When launching Aminbiography Browser 2.0 for the first time, Windows may display a **"Windows protected your PC"** message through Microsoft Defender SmartScreen.
+
+This can happen because the application is newly published and does not yet have an established Windows reputation or a recognized code-signing certificate.
+
+**If you downloaded the application from the official Aminbiography GitHub Releases page and have verified the download, you can proceed as follows:**
+
+1. Click **More info** in the SmartScreen warning.
+2. Review the application information and publisher details.
+3. If you trust the downloaded application, select **Run anyway** to continue.
+
+**Important security notice:**
+
+- Only download the application from the official GitHub Releases page.
+- Verify the downloaded file before running it.
+- Do not bypass warnings if the file came from an unknown or untrusted source.
+- SmartScreen warnings do not prove that an application is malicious, but they should not be ignored without checking the source.
+  
 ---
 
 ## 📖 How to Download, Install, and Run
