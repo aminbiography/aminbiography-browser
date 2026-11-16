@@ -1,22 +1,12 @@
-# aminbiography Browser 2.0
-
-**Download:** [Download Aminbiography Browser 2.0](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
-
-
-
 # Aminbiography Browser 2.0
 
-## 📥 Download Aminbiography Browser 2.0
-
-**Latest Release:** [v2.0](https://github.com/aminbiography/aminbiography-browser/releases/tag/v2.0)
+## Download Aminbiography Browser 2.0
 
 **Platform:** Windows 10/11 (64-bit)
 
 **Download Size:** Approximately 211 MB
 
-[**⬇ Download Aminbiography Browser 2.0 — Windows 64-bit**](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
-
-[View All Releases](https://github.com/aminbiography/aminbiography-browser/releases)
+**Download:** [Download Aminbiography Browser 2.0](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
 
 ### ⚠️ Windows SmartScreen Warning
 
@@ -39,7 +29,7 @@ This can happen because the application is newly published and does not yet have
   
 ---
 
-## 📖 How to Download, Install, and Run
+## How to Download, Install, and Run
 
 Follow these steps to install and launch Aminbiography Browser 2.0.
 
@@ -85,7 +75,7 @@ Aminbiography Browser 2.0 should launch.
 
 ---
 
-# 🌐 Project Overview
+# Project Overview
 
 ## About Aminbiography Browser 2.0
 
@@ -109,7 +99,7 @@ It includes essential browsing functionality such as multi-tab navigation, bookm
 
 ---
 
-# 🏗️ Software Architecture and Technical Overview
+# Software Architecture and Technical Overview
 
 ## 1. Application Architecture
 
@@ -244,7 +234,7 @@ The application also provides controls for clearing selected browsing data.
 
 ---
 
-# 🔐 Security Architecture
+# Security Architecture
 
 ## 1. Browser Engine Security
 
@@ -307,7 +297,7 @@ Using Chromium-based Qt WebEngine does not automatically mean that every securit
 
 ---
 
-# ✨ Included Features
+# Included Features
 
 ## Browsing and Navigation
 
@@ -333,7 +323,7 @@ Using Chromium-based Qt WebEngine does not automatically mean that every securit
 
 ---
 
-# 👨‍💻 Developer Documentation
+# Developer Documentation
 
 Want to explore the source code, modify the application, or build your own version?
 
@@ -513,11 +503,12 @@ The application has not been presented as a hardened production browser or as ha
 
 ---
 
-# 🤝 Feedback, Issues, and Contributions
+# Feedback, Issues, and Contributions
 
 Feedback, suggestions, and contributions are welcome.
 
-- **Download:** [Latest GitHub Release](https://github.com/aminbiography/aminbiography-browser/releases/latest)
+
+- **Download Latest Release:** [v2.0](https://github.com/aminbiography/aminbiography-browser/releases/tag/v2.0)
 - **Source Code:** [GitHub Repository](https://github.com/aminbiography/aminbiography-browser)
 - **Report Issues:** [GitHub Issues](https://github.com/aminbiography/aminbiography-browser/issues)
 
@@ -527,7 +518,5 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 
 ---
 
-© 2026 Aminbiography. All rights reserved.
-
-
+© 2026 aminbiography. All rights reserved.
 
