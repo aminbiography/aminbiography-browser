@@ -1,6 +1,6 @@
 # Aminbiography Browser 2.0
 
-**No traditional installation required!**
+**No traditional installation required**
 
 Simply download the ZIP file, extract it, and double-click `aminbiography Browser.exe` to launch the browser.
 
