@@ -6,8 +6,6 @@
 
 **Download Size:** Approximately 211 MB
 
-**Download:** [Download Aminbiography Browser 2.0](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
-
 ### ⚠️ Windows SmartScreen Warning
 
 When launching Aminbiography Browser 2.0 for the first time, Windows may display a **"Windows protected your PC"** message through Microsoft Defender SmartScreen.
