@@ -292,7 +292,7 @@ Developer Tools are intended for development and troubleshooting.
 
 ## **5. Security Limitations**
 
-Aminbiography Browser 2.0 is an independently developed learning and development browser project. It is not represented as a hardened production browser.
+Aminbiography Browser 2.0 is an independently designed and developed browser project. It is not represented as a hardened production browser.
 
 The current project does not implement the following features:
 
