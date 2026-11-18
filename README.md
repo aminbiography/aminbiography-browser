@@ -585,7 +585,7 @@ The original Aminbiography Browser application, its independently developed sour
 
 The project's copyright statement does not override, restrict, or replace rights granted under applicable third-party open-source licenses.
 
-Permissions concerning modification, redistribution, and commercial use of the original application are governed by the project's applicable software license.
+Permissions concerning modification, redistribution, and commercial use of the original application are governed by the MIT License and applicable third-party software licenses.
 
 ## **6. Privacy and Browsing Data**
 
