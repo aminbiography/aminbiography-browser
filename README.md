@@ -679,11 +679,11 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 
 
 
-
-
-
-
-
+===============================================
+===============================================
+===============================================
+===============================================
+===============================================
 
 
 
@@ -1334,17 +1334,6 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 **Platform:** Windows 10/11 (64-bit)\
 **Copyright:** © 2026 aminbiography. All rights reserved, subject to applicable third-party licenses.
 
-\#AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
+#AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
 
-```
-
-**Before publishing, verify these five details against your actual repository and release:**
-
-1. The executable is actually named `aminbiography Browser.exe`.
-2. The ZIP contains the executable and `_internal` folder.
-3. The workflow filename and workflow name match the README.
-4. The keyboard shortcuts listed are implemented.
-5. Your repository's `LICENSE` and any separate Privacy Policy match the statements in this README.
-
-One legal point: the copyright notice does not itself establish an open-source license. Choose and publish a license that reflects how you want others to use and redistribute your code.
 ```
