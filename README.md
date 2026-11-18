@@ -187,7 +187,7 @@ Depending on the implementation and settings, this may include:
 
 ## 2. Conceptual Architecture Diagram
 
-```text
+````markdown
                   USER
                     |
                     v
@@ -355,7 +355,7 @@ Want to explore the source code, modify the application, or build your own versi
 
 **GitHub Repository:**
 
-[https://github.com/aminbiography/aminbiography-browser](https://github.com/aminbiography/aminbiography-browser?utm_source=chatgpt.com)
+[https://github.com/aminbiography/aminbiography-browser](https://github.com/aminbiography/aminbiography-browser)
 
 ## **1. Project Structure**
 
@@ -447,7 +447,7 @@ python -m pip install pyinstaller
 Build the application:
 
 ```
-python -m PyInstaller --noconfirm --clean --windowed --name "aminbiography-browser" --icon="aminbiography_browser_purple.ico" --collect-all PySide6 main.py
+python -m PyInstaller --noconfirm --clean "aminbiography Browser.spec"
 ```
 
 PyInstaller generates the packaged application under the `dist` directory.
@@ -558,8 +558,8 @@ External websites and services accessed through Aminbiography Browser may have t
 
 For Google services:
 
-- [Google Privacy Policy](https://policies.google.com/privacy?utm_source)
-- [Google Terms of Service](https://policies.google.com/terms?utm_source)
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Google Terms of Service](https://policies.google.com/terms)
 
 These policies are published and maintained by Google LLC. They are not the privacy policy or software license of Aminbiography Browser.
 
