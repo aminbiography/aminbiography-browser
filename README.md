@@ -78,7 +78,7 @@ You can also visit the [GitHub Releases page](https://github.com/aminbiography/a
 
 - Extract the complete ZIP archive before launching the application.
 - Do not run the executable directly from inside the ZIP file.
-- Keep `aminbiography Browser.exe`, the `_internal` folder, and all supporting files together.
+- Keep `aminbiography-browser.exe`, the `_internal` folder, and all supporting files together.
 - Do not delete, rename, or move required application files.
 - No separate Python installation is required.
 - No traditional software installation process is required.
