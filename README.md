@@ -17,7 +17,6 @@ Download the ZIP archive, extract it, and launch the browser directly from its f
 <summary><strong>Download and run instructions</strong></summary>
 
 ### Download
-
 [**Download Aminbiography Browser 2.0 — Windows x64 (ZIP)**](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
 
 You can also visit the [GitHub Releases page](https://github.com/aminbiography/aminbiography-browser/releases) to explore available releases.
