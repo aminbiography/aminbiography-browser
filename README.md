@@ -635,12 +635,22 @@ Aminbiography Browser does not claim ownership of external website content or im
 
 Users are responsible for complying with applicable terms and policies when accessing external services.
 
-## **10. Contact and Legal Inquiries**
+## **10. License**
 
-For questions concerning Aminbiography Browser, its original source code, project documentation, copyright, or licensing, please contact the developer through the official GitHub repository.
+Aminbiography Browser's original source code is licensed under the MIT License.
 
-- **Official Repository:** [GitHub Repository](https://github.com/aminbiography/aminbiography-browser?utm_source=chatgpt.com)
-- **Issues and Feedback:** [GitHub Issues](https://github.com/aminbiography/aminbiography-browser/issues?utm_source=chatgpt.com)
+Copyright (c) 2026 aminbiography
+
+See the [LICENSE](LICENSE) file for the complete license terms.
+
+**Note:** Third-party components, including Qt, PySide6, and Chromium, remain subject to their respective licenses and notices.
+
+## **11. Contact and Project Inquiries**
+
+For questions concerning Aminbiography Browser, its original source code, project documentation, copyright, or other project-related matters, please contact the developer through the official GitHub repository.
+
+- **Official Repository:** [GitHub Repository](https://github.com/aminbiography/aminbiography-browser)
+- **Issues and Feedback:** [GitHub Issues](https://github.com/aminbiography/aminbiography-browser/issues)
 
 # **Feedback, Issues, and Contributions**
 
