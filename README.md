@@ -22,7 +22,7 @@ Download the ZIP archive, extract it, and launch the browser directly from its f
 
 ## Features
 
-- **Portable application — no installation required:** Extract the ZIP archive, open the application folder, and double-click `aminbiographybrowser.exe`.
+- **Portable application — no installation required:** Extract the ZIP archive, open the application folder, and double-click `aminbiography-browser.exe`.
 - **Custom application icon and branding:** A custom visual identity for the browser.
 - **Multi-tab browsing:** Open and manage multiple websites in separate tabs.
 - **Bookmarks:** Save and manage favorite websites.
@@ -558,8 +558,8 @@ External websites and services accessed through Aminbiography Browser may have t
 
 For Google services:
 
-- [Google Privacy Policy](https://policies.google.com/privacy?utm_source=chatgpt.com)
-- [Google Terms of Service](https://policies.google.com/terms?utm_source=chatgpt.com)
+- [Google Privacy Policy](https://policies.google.com/privacy?utm_source)
+- [Google Terms of Service](https://policies.google.com/terms?utm_source)
 
 These policies are published and maintained by Google LLC. They are not the privacy policy or software license of Aminbiography Browser.
 
@@ -694,10 +694,10 @@ If you encounter a bug, experience an issue, or have suggestions for improving A
 
 ### **Project Links**
 
-- **Download:** [Download Aminbiography Browser 2.0 — Windows x64](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip?utm_source=chatgpt.com)
-- **Latest Release:** [GitHub Releases — v2.0](https://github.com/aminbiography/aminbiography-browser/releases/tag/v2.0?utm_source=chatgpt.com)
-- **Source Code:** [GitHub Repository](https://github.com/aminbiography/aminbiography-browser?utm_source=chatgpt.com)
-- **Report Issues:** [GitHub Issues](https://github.com/aminbiography/aminbiography-browser/issues?utm_source=chatgpt.com)
+- **Download:** [Download Aminbiography Browser 2.0 — Windows x64](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip?utm_source)
+- **Latest Release:** [GitHub Releases — v2.0](https://github.com/aminbiography/aminbiography-browser/releases/tag/v2.0?utm_source)
+- **Source Code:** [GitHub Repository](https://github.com/aminbiography/aminbiography-browser?utm_source)
+- **Report Issues:** [GitHub Issues](https://github.com/aminbiography/aminbiography-browser/issues?utm_source)
 
 If you find this project useful, consider giving the repository a ⭐ Star.
 
@@ -707,6 +707,6 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 **Developer:** Mohammad Aminul Islam  
 **GitHub:** [@aminbiography](https://github.com/aminbiography)  
 **Platform:** Windows 10/11 (64-bit)  
-**Copyright:** © 2026 aminbiography. Original project materials are licensed under the MIT License; third-party components remain subject to their respective licenses.
+**Copyright:** © 2026 aminbiography. Original source code is licensed under the MIT License; third-party components remain subject to their respective licenses.
 
 #AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
