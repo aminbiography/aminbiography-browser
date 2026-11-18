@@ -447,7 +447,7 @@ python -m pip install pyinstaller
 Build the application:
 
 ```
-python -m PyInstaller --noconfirm --clean --windowed --name "aminbiography Browser" --icon="aminbiography_browser_purple.ico" --collect-all PySide6 main.py
+python -m PyInstaller --noconfirm --clean --windowed --name "aminbiography-browser" --icon="aminbiography_browser_purple.ico" --collect-all PySide6 main.py
 ```
 
 PyInstaller generates the packaged application under the `dist` directory.
@@ -583,7 +583,7 @@ Their copyright notices, license conditions, redistribution requirements, and ot
 
 The developer does not claim ownership of third-party software.
 
-The distributed application should include the applicable third-party license texts, copyright notices, and other required attribution or source-code information in accordance with the licenses governing its bundled components.
+Third-party components bundled with the application remain subject to their respective licenses. Any required license texts, copyright notices, attributions, and source-code or source-code offer information must be provided in accordance with the applicable license terms.
 
 ### **Third-Party Names, Trademarks, Logos, and Visual Assets**
 
