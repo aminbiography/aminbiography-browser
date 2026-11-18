@@ -659,9 +659,10 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 
 **Thank you for exploring Aminbiography Browser 2.0!**
 
-**Project:** Aminbiography Browser 2.0\
-**Developer:** Mohammad Aminul Islam @aminbiography\
-**Platform:** Windows 10/11 (64-bit)\
+**Project:** Aminbiography Browser 2.0  
+**Developer:** Mohammad Aminul Islam  
+**GitHub:** [@aminbiography](https://github.com/aminbiography)  
+**Platform:** Windows 10/11 (64-bit)  
 **Copyright:** © 2026 aminbiography. All rights reserved, subject to applicable third-party licenses.
 
 #AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
