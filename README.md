@@ -31,6 +31,33 @@ Download the ZIP archive, extract it, and launch the browser directly from its f
 
 ## Download Aminbiography Browser 2.0
 
+## Windows Defender SmartScreen Warning
+
+When launching **Aminbiography Browser 2.0** for the first time, Windows may display a security warning titled **"Windows protected your PC"** through Microsoft Defender SmartScreen.
+
+This warning may appear because Windows does not yet recognize the newly distributed application or its publisher reputation. It is common for newly released applications that have not yet established sufficient download reputation or do not have a recognized code-signing certificate.
+
+The warning does not necessarily mean that the application is malicious.
+
+### How to Proceed
+
+If you downloaded Aminbiography Browser 2.0 from the official GitHub Releases page:
+
+1. Click **More info** in the SmartScreen warning window.
+2. Review the application name and publisher information.
+3. Verify that you downloaded the application from the official Aminbiography Browser release.
+4. If you have verified the download and trust its source, click **Run anyway** to launch the browser.
+
+### Important Security Notice
+
+- Only download the application from the [official Aminbiography Browser GitHub Releases page](https://github.com/aminbiography/aminbiography-browser/releases).
+- Do not run applications downloaded from unknown or untrusted sources.
+- Never bypass security warnings without verifying the application's source.
+- SmartScreen warnings do not necessarily indicate that an application is malicious.
+- The absence of a SmartScreen warning does not guarantee that an application is safe.
+
+**Note:** SmartScreen may display this warning during the first launch because the application is new or has limited reputation information. Its appearance and frequency depend on Microsoft's reputation assessment. Code signing and SmartScreen reputation are separate matters; neither this warning nor its absence should be treated as a security certification or guarantee.
+
 ### Download and run instructions
 
 ### Download
