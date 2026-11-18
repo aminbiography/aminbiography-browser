@@ -369,6 +369,160 @@ class BrowserWindow(QMainWindow):
             self.statusBar().showMessage("Page loaded" if ok else "Page could not load", 3500)
             self.update_url_bar()
 
+        # Apply the Google homepage customization after the page has loaded.
+        self.customize_google_homepage(view)
+
+    def customize_google_homepage(self, view):
+        """Rename I'm Feeling Lucky and make the Google Search button submit reliably."""
+        url = view.url()
+        host = (url.host() or "").lower()
+        path = url.path() or "/"
+
+        if not (host == "google.com" or host.endswith(".google.com")):
+            return
+        if path not in ("", "/"):
+            return
+
+        script = r"""
+        (() => {
+            const QUICK_LINKS = [
+                ["Google Maps", "https://maps.google.com/"],
+                ["Gmail", "https://mail.google.com/"],
+                ["YouTube", "https://www.youtube.com/"],
+                ["Google Translate", "https://translate.google.com/"],
+                ["Google News", "https://news.google.com/"]
+            ];
+
+            const renameCalibrations = () => {
+                document.querySelectorAll(
+                    'input[name="btnI"], button[name="btnI"]'
+                ).forEach((button) => {
+                    if (button.tagName === "INPUT") {
+                        button.value = "Calibrations";
+                    } else {
+                        button.textContent = "Calibrations";
+                    }
+                    button.setAttribute("aria-label", "Calibrations");
+                });
+            };
+
+            const renameGoogleWeather = () => {
+                document.querySelectorAll(
+                    'input[name="btnK"], button[name="btnK"]'
+                ).forEach((button) => {
+                    if (button.tagName === "INPUT") {
+                        button.value = "Google Weather";
+                    } else {
+                        button.textContent = "Google Weather";
+                    }
+                    button.setAttribute("aria-label", "Google Weather");
+                });
+            };
+
+            const addQuickLinks = () => {
+                if (document.getElementById("aminbiography-quick-links")) return;
+
+                const searchForm = document.querySelector('form:has([name="q"])');
+                if (!searchForm) return;
+
+                const container = document.createElement("div");
+                container.id = "aminbiography-quick-links";
+                container.setAttribute("aria-label", "Quick links");
+                container.style.cssText = [
+                    "display:flex",
+                    "flex-wrap:wrap",
+                    "justify-content:center",
+                    "align-items:center",
+                    "gap:8px",
+                    "margin:10px auto 0",
+                    "max-width:760px",
+                    "padding:0 12px"
+                ].join(";");
+
+                QUICK_LINKS.forEach(([label, url]) => {
+                    const link = document.createElement("a");
+                    link.href = url;
+                    link.textContent = label;
+                    link.style.cssText = [
+                        "display:inline-flex",
+                        "align-items:center",
+                        "justify-content:center",
+                        "min-height:36px",
+                        "padding:0 16px",
+                        "box-sizing:border-box",
+                        "border:1px solid #3c4043",
+                        "border-radius:6px",
+                        "background:#303134",
+                        "color:#e8eaed",
+                        "font:14px Arial,sans-serif",
+                        "text-decoration:none",
+                        "white-space:nowrap",
+                        "cursor:pointer"
+                    ].join(";");
+
+                    link.addEventListener("mouseenter", () => {
+                        link.style.background = "#3c4043";
+                        link.style.borderColor = "#5f6368";
+                    });
+                    link.addEventListener("mouseleave", () => {
+                        link.style.background = "#303134";
+                        link.style.borderColor = "#3c4043";
+                    });
+
+                    container.appendChild(link);
+                });
+
+                searchForm.insertAdjacentElement("afterend", container);
+            };
+
+            const handleWeatherClick = (event) => {
+                const path = typeof event.composedPath === "function"
+                    ? event.composedPath()
+                    : [event.target];
+
+                const clickedWeather = path.some((item) => {
+                    if (!item || !item.matches) return false;
+                    const name = (item.getAttribute("name") || "").toLowerCase();
+                    const label = (
+                        item.innerText ||
+                        item.value ||
+                        item.getAttribute("aria-label") ||
+                        ""
+                    ).trim().toLowerCase();
+                    return name === "btnk" || label === "google weather";
+                });
+
+                if (!clickedWeather) return;
+                event.preventDefault();
+                event.stopPropagation();
+                window.location.href = "https://www.google.com/search?q=weather";
+            };
+
+            if (!window.__aminbiographyWeatherHandlerInstalled) {
+                document.addEventListener("click", handleWeatherClick, true);
+                window.__aminbiographyWeatherHandlerInstalled = true;
+            }
+
+            const applyHomepageChanges = () => {
+                renameCalibrations();
+                renameGoogleWeather();
+                addQuickLinks();
+            };
+
+            applyHomepageChanges();
+
+            if (!window.__aminbiographyHomepageButtonsObserver) {
+                const observer = new MutationObserver(applyHomepageChanges);
+                observer.observe(document.documentElement, {
+                    childList: true,
+                    subtree: true
+                });
+                window.__aminbiographyHomepageButtonsObserver = observer;
+            }
+        })();
+        """
+        view.page().runJavaScript(script)
+
     def show_link_status(self, link):
         self.statusBar().showMessage(link, 5000)
 
