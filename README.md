@@ -22,7 +22,7 @@ Download the ZIP archive, extract it, and launch the browser directly from its f
 
 ## Features
 
-- **Portable application — no installation required:** Extract the ZIP archive, open the application folder, and double-click `aminbiography Browser.exe`.
+- **Portable application — no installation required:** Extract the ZIP archive, open the application folder, and double-click `aminbiographybrowser.exe`.
 - **Custom application icon and branding:** A custom visual identity for the browser.
 - **Multi-tab browsing:** Open and manage multiple websites in separate tabs.
 - **Bookmarks:** Save and manage favorite websites.
@@ -583,7 +583,7 @@ Their copyright notices, license conditions, redistribution requirements, and ot
 
 The developer does not claim ownership of third-party software.
 
-Applicable third-party license texts, copyright notices, and required source-code information should accompany the distributed application in accordance with the relevant licenses.
+The distributed application should include the applicable third-party license texts, copyright notices, and other required attribution or source-code information in accordance with the licenses governing its bundled components.
 
 ### **Third-Party Names, Trademarks, Logos, and Visual Assets**
 
@@ -619,7 +619,7 @@ Websites accessed through the browser may independently collect, process, and st
 
 Users should review external website privacy policies before submitting personal or sensitive information.
 
-For information about data collected, stored, or transmitted by Aminbiography Browser itself, consult the project's separate Privacy Policy, if provided.
+For information about browsing data stored by Aminbiography Browser, including cookies, cache, history, and bookmarks, refer to the relevant sections of this documentation.
 
 ## **7. Security and Responsible Use**
 
@@ -707,6 +707,6 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 **Developer:** Mohammad Aminul Islam  
 **GitHub:** [@aminbiography](https://github.com/aminbiography)  
 **Platform:** Windows 10/11 (64-bit)  
-**Copyright:** © 2026 aminbiography. All rights reserved, subject to applicable third-party licenses.
+**Copyright:** © 2026 aminbiography. Original project materials are licensed under the MIT License; third-party components remain subject to their respective licenses.
 
 #AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
