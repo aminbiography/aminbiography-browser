@@ -6,9 +6,9 @@ Aminbiography Browser 2.0 is an independent software design and development proj
 
 The project demonstrates desktop application development, browser integration, search functionality, software architecture, user interface design, and Windows application packaging using Python, PySide6, and Qt WebEngine.
 
-It is shared for educational purposes and research into search behavior.
+**It is shared for educational purposes and research into search behavior.**
 
-**A portable Windows desktop browser — no traditional installation required.**
+### A portable Windows desktop browser — no traditional installation required.
 
 Aminbiography Browser 2.0 is an independently developed desktop web browser built with Python, PySide6, and Chromium-based Qt WebEngine, with AI assistance throughout the development process.
 
