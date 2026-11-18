@@ -641,7 +641,7 @@ Aminbiography Browser's original source code is licensed under the MIT License.
 
 Copyright (c) 2026 aminbiography
 
-See the [LICENSE](LICENSE) file for the complete license terms.
+See the [MIT License](#12-mit-license) section below for the complete license terms.
 
 **Note:** Third-party components, including Qt, PySide6, and Chromium, remain subject to their respective licenses and notices.
 
@@ -669,8 +669,6 @@ copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-For the complete license terms, see the [LICENSE](LICENSE) file.
 
 # **Feedback, Issues, and Contributions**
 
