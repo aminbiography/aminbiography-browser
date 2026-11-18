@@ -577,15 +577,23 @@ The developer does not claim ownership of third-party software.
 
 Applicable third-party license texts, copyright notices, and required source-code information should accompany the distributed application in accordance with the relevant licenses.
 
+### **Third-Party Names, Trademarks, Logos, and Visual Assets**
+
+All third-party names, trademarks, service marks, logos, icons, graphics, product names, and other identifying materials referenced, displayed, or used within Aminbiography Browser remain the property of their respective owners.
+
+Their appearance within the application or its documentation is for identification, compatibility, informational, or descriptive purposes only and does not imply ownership, affiliation, sponsorship, authorization, or endorsement by their respective owners.
+
+Aminbiography Browser does not claim ownership of third-party branding, trademarks, logos, or visual assets. Their use remains subject to the applicable rights, permissions, trademark policies, and licensing conditions of their respective owners.
+
 ## **5. Original Project Copyright and Software Ownership**
 
-Copyright © 2026 aminbiography. All rights reserved for original project materials, subject to applicable third-party software licenses.
+Copyright © 2026 aminbiography.
 
-The original Aminbiography Browser application, its independently developed source code, interface design, project documentation, and original assets are subject to their applicable ownership and licensing terms.
+The original Aminbiography Browser application, its independently developed source code, interface design, project documentation, and original assets are owned by their respective copyright holders and are licensed under their applicable licensing terms.
 
-The project's copyright statement does not override, restrict, or replace rights granted under applicable third-party open-source licenses.
+The original source code is licensed under the MIT License. Third-party components and materials remain subject to their respective copyright ownership and licensing conditions.
 
-Permissions concerning modification, redistribution, and commercial use of the original application are governed by the MIT License and applicable third-party software licenses.
+The project's copyright statement and MIT License do not override, restrict, or replace rights granted under applicable third-party licenses.
 
 ## **6. Privacy and Browsing Data**
 
