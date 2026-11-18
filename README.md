@@ -284,6 +284,8 @@ Users should:
 - Verify downloaded files before opening them.
 - Scan downloaded files with appropriate security software.
 
+**Application download source:** Always download Aminbiography Browser from the [official GitHub repository](https://github.com/aminbiography/aminbiography-browser) or its [official Releases page](https://github.com/aminbiography/aminbiography-browser/releases).
+
 ## **4. Developer Tools**
 
 Chromium Developer Tools are available for inspecting webpages, debugging JavaScript, and analyzing browser behavior.
