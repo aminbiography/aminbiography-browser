@@ -666,5 +666,3 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 **Copyright:** © 2026 aminbiography. All rights reserved, subject to applicable third-party licenses.
 
 #AminbiographyBrowser #Python #PySide6 #Chromium #OpenSource #DesktopBrowser #Windows #GitHub
-
-```
