@@ -448,7 +448,7 @@ The output is a one-folder Windows application.
 
 ### **Important Packaging Notes**
 
-- Keep `aminbiography Browser.exe` and its companion `_internal` folder together.
+- Keep `aminbiography-browser.exe` and its companion `_internal` folder together.
 - Do not distribute only the executable.
 - Distribute the complete packaged application.
 - Test the generated application on a separate Windows computer before publishing it.
@@ -470,7 +470,7 @@ To use it:
 3. Run the workflow or push changes to the configured branch.
 4. Wait for the workflow to complete successfully.
 5. Download the generated `aminbiography-windows-x64` artifact.
-6. Extract the artifact and launch `aminbiography Browser.exe`.
+6. Extract the artifact and launch `aminbiography-browser.exe`.
 
 The output is a portable PyInstaller one-folder application.
 
