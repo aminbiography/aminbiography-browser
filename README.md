@@ -12,37 +12,6 @@ Download the ZIP archive, extract it, and launch the browser directly from its f
 
 ---
 
-## Download Aminbiography Browser 2.0
-
-### Download and run instructions
-
-### Download
-[**Download Aminbiography Browser 2.0 — Windows x64 (ZIP)**](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
-
-You can also visit the [GitHub Releases page](https://github.com/aminbiography/aminbiography-browser/releases) to explore available releases.
-
-### How to Run
-
-1. Download `aminbiography-browser.zip`.
-2. Locate the downloaded ZIP archive.
-3. Right-click the file and select **Extract All**.
-4. Choose your preferred destination.
-5. Open the extracted application folder.
-6. Double-click `aminbiography Browser.exe` to launch the browser.
-
-### Important
-
-- Extract the complete ZIP archive before launching the application.
-- Do not run the executable directly from inside the ZIP file.
-- Keep `aminbiography Browser.exe`, the `_internal` folder, and all supporting files together.
-- Do not delete, rename, or move required application files.
-- No separate Python installation is required.
-- No traditional software installation process is required.
-
-**Application type:** Portable, one-folder Windows application.
-
----
-
 ## Features
 
 - **Portable application — no installation required:** Extract the ZIP archive, open the application folder, and double-click `aminbiography Browser.exe`.
@@ -59,6 +28,35 @@ You can also visit the [GitHub Releases page](https://github.com/aminbiography/a
 - **Homepage quick links:** Access useful Google services and websites.
 
 ---
+
+## Download Aminbiography Browser 2.0
+
+### Download and run instructions
+
+### Download
+[**Download Aminbiography Browser 2.0 — Windows x64 (ZIP)**](https://github.com/aminbiography/aminbiography-browser/releases/download/v2.0/aminbiography-browser.zip)
+
+You can also visit the [GitHub Releases page](https://github.com/aminbiography/aminbiography-browser/releases) to explore available releases.
+
+### How to Run
+
+1. Download `aminbiography-browser.zip`.
+2. Locate the downloaded ZIP archive.
+3. Right-click the file and select **Extract All**.
+4. Choose your preferred destination.
+5. Open the extracted application folder.
+6. Double-click `aminbiography-browser.exe` to launch the browser.
+
+### Important
+
+- Extract the complete ZIP archive before launching the application.
+- Do not run the executable directly from inside the ZIP file.
+- Keep `aminbiography Browser.exe`, the `_internal` folder, and all supporting files together.
+- Do not delete, rename, or move required application files.
+- No separate Python installation is required.
+- No traditional software installation process is required.
+
+**Application type:** Portable, one-folder Windows application.
 
 # Project Overview
 
