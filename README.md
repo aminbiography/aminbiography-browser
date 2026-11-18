@@ -597,7 +597,7 @@ Aminbiography Browser does not claim ownership of third-party branding, trademar
 
 Copyright © 2026 aminbiography.
 
-The original Aminbiography Browser application, its independently developed source code, interface design, project documentation, and original assets are owned by their respective copyright holders and are licensed under their applicable licensing terms.
+The original Aminbiography Browser application, its independently developed source code, interface design, and original project materials are owned by aminbiography, subject to applicable third-party rights and licenses.
 
 The original source code is licensed under the MIT License. Third-party components and materials remain subject to their respective copyright ownership and licensing conditions.
 
