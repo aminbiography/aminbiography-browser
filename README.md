@@ -690,11 +690,7 @@ If you find this project useful, consider giving the repository a ⭐ Star.
 
 
 
-Below is a freshly rewritten, consolidated `README.md` for **Aminbiography Browser 2.0**. It preserves the technical documentation, download instructions, features, security information, development setup, and legal notices while improving consistency and removing unnecessary repetition.
 
-Copy the entire content into your GitHub `README.md` file.
-
-````
 # Aminbiography Browser 2.0
 
 **A portable Windows desktop browser — no traditional installation required.**
